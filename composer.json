@@ -1,0 +1,20 @@
+{
+    "name": "agti/agmulticaixa",
+    "description": "Módulo para integração com o Portal da Gateway de Pagamentos Online ",
+    "autoload": {
+        "psr-4": {
+          "AGTI\\MultiCaixa\\": "src/"
+        },
+        "files" : [
+          "base.php",
+          "classes/AgMultiCaixaOrders.php",
+          "classes/AgMultiCaixaWebHook.php"
+        ]
+      },
+      "type": "prestashop-module",
+      "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false,
+        "optimize-autoloader": true
+    }
+}
