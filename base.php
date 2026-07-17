@@ -34,7 +34,7 @@ class BaseAgMultiCaixa extends AgPaymentModule
     {
         $this->name     = 'agmulticaixa';
         $this->tab      = 'payments_gateways';
-        $this->version  = '1.0.6';
+        $this->version  = '1.0.7';
         $this->author   = 'AGTI';
 
         $this->bootstrap = true;
